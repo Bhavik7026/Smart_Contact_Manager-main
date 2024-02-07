@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" th:replace="Base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" th:href="@{/my_css/style.css}">
+</head>
+<body>
+
+    <!-- section start -->
+    <section class="banner   d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h1 class="text-center">Smart Contact Manager</h1>
+            <p>Start Collecting Your Contacts in very Smarter way. We provide very efficient and Smarter Way of Handling Contacts</p>
+            <a th:href="@{/user/index}" type="submit" class="btn btn-secondary">Explor Know</a>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+</body>
+</html>
